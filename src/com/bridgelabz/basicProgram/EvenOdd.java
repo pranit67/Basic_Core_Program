@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class EvenOdd {
     public static void main(String[] args) {
-        Scanner scan  = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.println("Insert the number");
         int number = scan.nextInt();
-        if (number % 2 ==0){
+        if (number % 2 == 0) {
             System.out.println("even");
-        }else {
+        } else {
             System.out.println("odd");
         }
     }
